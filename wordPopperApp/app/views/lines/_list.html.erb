@@ -1,0 +1,11 @@
+<div class="new-line">
+  <% @lines.each do |line| %>
+    <tr>
+      <td><%= line.line %></td>
+      <td><%= link_to 'Show', line %></td>
+      <td><%= link_to 'Edit', edit_line_path(line) %></td>
+      <td><%= link_to 'Destroy', line, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+
+</div>

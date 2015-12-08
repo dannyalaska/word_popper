@@ -1,0 +1,85 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+  background-color: rgb(27, 27, 27);
+  color: rgb(242, 242, 242);
+  font-family: 'Chewy', cursive;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#emoji-container {
+
+  height: 200px;
+  width: 100%;
+  background-color: rgba(191, 255, 245, 0.84);
+  border-radius: 25px;
+  color: rgb(242, 242, 242);
+  text-shadow: 2px 2px rgb(27, 27, 27);
+  overflow: hidden;
+}
+
+#letters-input {
+  height: 100px;
+  width:100%;
+  font-size: 60px;
+}
+
+.letters {
+  font-family: 'Fredoka One', cursive;
+  top: 100px;
+  margin-left: 50px;
+  font-size: 80px;
+  display: inline;
+  float: left;
+
+}
+
+#lines-container {
+  display: inline-block;
+}
+#line_line {
+  height: 60px;
+  width: 100%;
+  font-size: 2em;
+
+}
+.new-line {
+  font-family: 'Comfortaa', cursive;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  overflow: scroll;
+  position: relative;
+}
+h3 {
+  float: left;
+  margin: auto;
+}
+
+.selector {
+  font-family: 'Comfortaa', cursive;
+  height: 100px;
+  width: 60%;
+  margin: 5px;
+  border: 6px outset rgb(255, 115, 207);
+  font-size: 2em;
+  background-color: rgb(245, 190, 118);
+  border-radius: 15px;
+  position: relative;
+  float: left;
+}

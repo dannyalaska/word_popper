@@ -1,0 +1,10 @@
+<%= form_for (@line) do |f| %>
+
+  <h3>Add a new Line: </h3>
+  <div class="field">
+    <%= f.text_field :line %>
+  </div>
+  <div class="actions"> Copy and Paste Saved Lines: 
+    <%= f.submit 'Save Line' %>
+  </div>
+<% end %>

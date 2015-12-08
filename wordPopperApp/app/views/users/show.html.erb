@@ -1,0 +1,17 @@
+<div id="user-page">
+
+      <%=button_to 'DELETE ACCOUNT', @user, :method => :delete %>
+      <h1>Ready Player: <%= @user.username%></h1>
+
+      <h1>Let's Explode Some Letters</h1>
+
+      <div id="emoji-container">
+
+      </div>
+      <button class="selector">POP Current Line</button>
+      <div id="lines-container">
+
+      <%= render partial: 'lines/form' %>
+      <%= render partial: 'lines/list' %>
+      </div>
+</div>
